@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+}
+.documents{
+  width: 100%;
+  height: 30rem;
+  border: 1px solid royalblue;
+}
+.card{
+  width: 100%;
+  height: 5rem;
+}
+.header{
+  width: 100%;
+  height: 5rem;
+  background: royalblue;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+.grids{
+  display: grid;
+  grid-template-columns: 10% 60% 20%;
+}
+.hcard{
+  width: 100%;
+  height: 5rem;
+  padding: 1rem;
+  color: white;
+}
+.btn{
+  padding: .5rem;
+  background: darkblue;
+  color: white;
+  text-decoration: none;
+  
+}
+.btns{
+  padding: .3rem;
+  background: royalblue;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  
+}
+.hcard a{
+  margin-top: 30px;
+}
+.card h3{
+  margin-bottom: 5px;
+}
+.download{
+  padding: .3rem;
+  background: forestgreen;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-left: 20px;
+  
+}
