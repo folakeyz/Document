@@ -10,8 +10,7 @@ import DescriptionIcon from '@material-ui/icons/Description';
 
 export default class Documents extends React.Component<IDocumentsProps, any> {
   public constructor(props:IDocumentsProps,any)
-  {
-      
+  {  
       super(props);
       this.state={
           items:[]
@@ -26,7 +25,7 @@ export default class Documents extends React.Component<IDocumentsProps, any> {
         <div className={ styles.hcard }>
           <h1><DescriptionIcon />Documents</h1>
           </div>
-          <div className={ styles.hcard }  style={{paddingTop: "2rem"}}>
+          <div className={ styles.hcard }  style={{paddingTop: "1rem"}}>
           <a href="https://lotusbetaanalytics.sharepoint.com/sales/Shared%20Documents/Forms/AllItems.aspx" className={styles.btn}>View All</a>
         </div>
           </div>
@@ -45,19 +44,15 @@ export default class Documents extends React.Component<IDocumentsProps, any> {
        <small>{item.File['TimeCreated']}</small><br />
        </div>
        <div className={ styles.card } style={{paddingTop: "1rem"}}>
-       <a href={item.File['LinkingUri']} className={styles.btns}>Preview</a>
+       <a href={item.File['LinkingUri']} className={styles.btns}>Preview</a><br /><br />
        <a href={item.File['LinkingUrl']} className={styles.download}>Download</a>
            </div>
       </div>
-      </div>
-         
- )
-
-    
+      </div>       
+ ) 
 })
 
 } 
-  
       </div>
     );
   }

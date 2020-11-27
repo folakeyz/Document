@@ -3,12 +3,13 @@
 }
 .documents{
   width: 100%;
-  height: 30rem;
+  height: 36rem;
   border: 1px solid royalblue;
 }
 .card{
   width: 100%;
-  height: 5rem;
+  height: 6rem;
+  border-bottom: 1px solid gainsboro;
 }
 .header{
   width: 100%;
@@ -17,11 +18,11 @@
 }
 .grid{
   display: grid;
-  grid-template-columns: 80% 20%;
+  grid-template-columns: 70% 30%;
 }
 .grids{
   display: grid;
-  grid-template-columns: 10% 60% 20%;
+  grid-template-columns: 10% 65% 25%;
 }
 .hcard{
   width: 100%;
@@ -42,10 +43,8 @@
   color: white;
   text-decoration: none;
   border-radius: 3px;
+  font-size: 11px;
   
-}
-.hcard a{
-  margin-top: 30px;
 }
 .card h3{
   margin-bottom: 5px;
@@ -56,6 +55,6 @@
   color: white;
   text-decoration: none;
   border-radius: 3px;
-  margin-left: 20px;
+  font-size: 11px;
   
 }
